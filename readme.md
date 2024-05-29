@@ -58,6 +58,7 @@ npx cypress open  - abre o cypress studio
 npx cypress run - abre em modo headless
 
 ** configurando palavra de execução para cypress open no "scripts" **
+<pre>
 {
   "dependencies": {
     "cypress": "^13.10.0"
@@ -67,5 +68,5 @@ npx cypress run - abre em modo headless
     "test2": "npx cypress run"  // roda em modo headless
   }
 }
-
+</pre>
 
