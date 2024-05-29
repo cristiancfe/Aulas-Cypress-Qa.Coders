@@ -54,7 +54,7 @@ Pronto agora é só criar seus cenários de testes e aproveitar o melhor da ferr
 npm install cypress --saved-dev
 
 ** Rodando Cypress **
-npx cypress open  - abre o cypress studio
+npx cypress open  - abre o cypress studio - 
 npx cypress run - abre em modo headless
 
 ** configurando palavra de execução para cypress open no "scripts" **
