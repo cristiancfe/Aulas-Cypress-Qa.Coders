@@ -57,7 +57,7 @@ npm install cypress --saved-dev
 npx cypress open  - abre o cypress studio
 npx cypress run - abre em modo headless
 
-** configurando palavra de execuição para cypress open no "scripts" **
+** configurando palavra de execução para cypress open no "scripts" **
 {
   "dependencies": {
     "cypress": "^13.10.0"
