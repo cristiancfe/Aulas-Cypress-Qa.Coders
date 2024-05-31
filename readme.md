@@ -54,11 +54,10 @@ Pronto agora é só criar seus cenários de testes e aproveitar o melhor da ferr
 npm install cypress --saved-dev
 
 ** Rodando Cypress **
-npx cypress open  - abre o cypress studio - 
+npx cypress open  - abre o cypress studio
 npx cypress run - abre em modo headless
 
-** configurando palavra de execução para cypress open no "scripts" **
-<pre>
+** configurando palavra de execuição para cypress open no "scripts" **
 {
   "dependencies": {
     "cypress": "^13.10.0"
@@ -68,5 +67,10 @@ npx cypress run - abre em modo headless
     "test2": "npx cypress run"  // roda em modo headless
   }
 }
-</pre>
+
+Usando log:false para ocultar dados sensíveis na execução dos testes
+<pre>
+ cy.get('#password').type('1234@Test', { log: false });
+</pre> 
+
 
